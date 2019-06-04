@@ -11,14 +11,44 @@
 }
 @font-face {
   font-family: 'AvenirNext-bold';
-   src: url('Resources/font/AvenirNextLTPro-Bold.otf');  
+   src: url('Resources/font/AvenirNextLTPro-Demi.otf');  
 }
 @font-face {
   font-family: 'AvenirNext-italic';
    src: url('Resources/font/AvenirNextLTPro-It.otf');  
 }
 
+/*			TABELLA COLORI
+	blu che sembra nero		#33475B
+	arancione				#FF7A59
+	arancione::hover		#FF8F73
+	grigio sfondo			#F5F8FA
+	colore freccine header	#7C98B6
+	azzurro lente header	#01A5BE
+*/
 
 body {
   font-family: 'AvenirNext-regular', Comic Sans MS, sans-serif;
+  color: #33475B;
+}
+
+button {
+	background-color: #FF7A59;
+	border-radius: 3px;
+	border: none;
+	padding: 10px 20px;
+	cursor: pointer;
+	font-family: 'AvenirNext-bold', Comic Sans MS, sans-serif;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+}
+
+button:hover {
+	background-color: #FF8F73;
+}
+
+/*spunte arancioni nei rettangoli bianchi a centro pagina*/
+.fa-check-circle {
+	color: #FF7A59;
 }
