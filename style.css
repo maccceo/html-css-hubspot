@@ -48,7 +48,57 @@ button:hover {
 	background-color: #FF8F73;
 }
 
+li {
+	display: inline-block;
+	margin: 10px;
+}
+
 /*spunte arancioni nei rettangoli bianchi a centro pagina*/
 .fa-check-circle {
 	color: #FF7A59;
 }
+
+/*freccine apertura menù a tendina nell'header*/
+.fa-sort-down {
+	color: #7C98B6;
+}
+
+/*Regole float*/
+.sx {float: left;}
+
+.dx {float: right;}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+  visibility: hidden;
+}
+
+/*-----------*/
+/*--SEZIONI--*/
+/*-----------*/
+
+.header-blue {
+	background-color: #33475B;
+	color: #F5F8FA;
+	border-top: 2px solid #FF7A59;
+	font-size: 0.8rem;
+}
+
+.header-blue .dx,.sx {
+	margin: 0 20px;
+}
+
+.header-blue .dx>* {
+	display: inline-block;
+	margin: 10px;
+}
+
+/* not working rn
+.header-blue-dx .separatore {
+	background-color: #F5F8FA;
+	height: 21px;
+	width: 2px;
+}
+*/
