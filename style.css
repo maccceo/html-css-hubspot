@@ -3,3 +3,22 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+/*Installazione font locali*/
+@font-face {
+  font-family: 'AvenirNext-regular';
+   src: url('Resources/font/AvenirNextLTPro-Regular.otf');  
+}
+@font-face {
+  font-family: 'AvenirNext-bold';
+   src: url('Resources/font/AvenirNextLTPro-Bold.otf');  
+}
+@font-face {
+  font-family: 'AvenirNext-italic';
+   src: url('Resources/font/AvenirNextLTPro-It.otf');  
+}
+
+
+body {
+  font-family: 'AvenirNext-regular', Comic Sans MS, sans-serif;
+}
