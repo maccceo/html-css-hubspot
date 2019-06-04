@@ -23,6 +23,7 @@
 	arancione				#FF7A59
 	arancione::hover		#FF8F73
 	grigio sfondo			#F5F8FA
+	grigio header (mio)		#D1D4D6
 	colore freccine header	#7C98B6
 	azzurro lente header	#01A5BE
 */
@@ -53,6 +54,11 @@ li {
 	margin: 10px;
 }
 
+.main-padding {
+	padding: 0 10%;
+}
+
+
 /*spunte arancioni nei rettangoli bianchi a centro pagina*/
 .fa-check-circle {
 	color: #FF7A59;
@@ -75,6 +81,12 @@ li {
   visibility: hidden;
 }
 
+.h-center {
+	position: absolute;
+	top: 50%;
+	transform: translate(0%, -50%);
+}
+
 /*-----------*/
 /*--SEZIONI--*/
 /*-----------*/
@@ -86,11 +98,12 @@ li {
 	font-size: 0.8rem;
 }
 
-.header-blue .dx,.sx {
+.header-blue .dx,.header-blue .sx {
 	margin: 0 20px;
 }
 
 .header-blue .dx>* {
+	background-color: purple;
 	display: inline-block;
 	margin: 10px;
 }
@@ -102,3 +115,27 @@ li {
 	width: 2px;
 }
 */
+
+/*-----------------------------------*/
+.header-grey {
+	position: relative;
+	height: 55px;
+	background-color: #D1D4D6;
+}
+
+.header-grey p,.header-grey button {
+	display: inline-block;
+	margin: 0 5px;
+}
+
+.header-grey .sx {
+	display: inline-block;
+	position: relative;
+	text-align: left;
+}
+
+.header-grey .dx {
+	display: inline-block;
+	position: relative;
+	text-align: right;
+}
