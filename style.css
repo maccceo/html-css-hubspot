@@ -11,6 +11,10 @@
 }
 @font-face {
   font-family: 'AvenirNext-bold';
+   src: url('Resources/font/AvenirNextLTPro-Bold.otf');  
+}
+@font-face {
+  font-family: 'AvenirNext-semibold';
    src: url('Resources/font/AvenirNextLTPro-Demi.otf');  
 }
 @font-face {
@@ -26,10 +30,15 @@
 	grigio header (mio)		#D1D4D6
 	colore freccine header	#7C98B6
 	azzurro lente header	#01A5BE
+
+
+	gradiente azzurro:
+	bottom-left #00A4BD
+	top-right   #00BCA5
 */
 
 body {
-  font-family: 'AvenirNext-regular', Comic Sans MS, sans-serif;
+  font-family: 'AvenirNext-regular', sans-serif;
   color: #33475B;
 }
 
@@ -39,7 +48,7 @@ button {
 	border: none;
 	padding: 10px 20px;
 	cursor: pointer;
-	font-family: 'AvenirNext-bold', Comic Sans MS, sans-serif;
+	font-family: 'AvenirNext-semibold', sans-serif;
 	color: white;
 	text-decoration: none;
 	text-align: center;
@@ -55,7 +64,7 @@ li {
 }
 
 .main-padding {
-	padding: 0 10%;
+	padding: 0 5%;
 }
 
 
@@ -123,7 +132,7 @@ li {
 /*-----------------------------------*/
 .header-grey {
 	position: relative;
-	height: 55px;
+	height: 70px;
 	background-color: #D1D4D6;
 }
 
@@ -135,6 +144,46 @@ li {
 /*-----------------------------------*/
 .header-white {
 	position: relative;
-	height: 55px;
+	height: 70px;
 	background-color: white;
+}
+
+/*-----------------------------------*/
+.jumbotron {
+	background-image: url("Resources/background.png"), linear-gradient(to right top, #356682, #3f7e99, #4b96af, #58afc4, #68c9d8);
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	height: 600px;
+	color: white;
+}
+
+.jumbotron>* {
+	width: 430px;
+}
+
+.jumbotron h1 {
+	font-family: 'AvenirNext-bold', sans-serif;
+	font-size: 3.5rem;
+	padding: 100px 0 30px 0;
+	line-height: 4rem;
+}
+
+.jumbotron p {
+	line-height: 1.6rem;
+}
+
+.jumbotron button {
+	background-color: white;
+	color: #33475B;
+	width: auto;
+	margin: 20px 0;
+	font-size: 1rem;
+	padding: 25px 45px;
+}
+
+.jumbotron span {
+	display: block;
+	width: 200px;
+	color: #C2D2DE;
+	font-size: 0.8rem;
 }
