@@ -63,8 +63,18 @@ li {
 	margin: 10px;
 }
 
+p {
+	line-height: 1.6rem;
+
+}
+
 .main-padding {
 	padding: 0 5%;
+}
+
+.grey-background {
+	background-color: #F5F8FA;
+	background-color: lightgrey;
 }
 
 
@@ -83,12 +93,10 @@ li {
 	float: left;
 	position: relative;
 }
-
 .dx {
 	float: right;
 	position: relative;
 }
-
 .clearfix:after {
   content: "";
   display: table;
@@ -168,10 +176,6 @@ li {
 	line-height: 4rem;
 }
 
-.jumbotron p {
-	line-height: 1.6rem;
-}
-
 .jumbotron button {
 	background-color: white;
 	color: #33475B;
@@ -186,4 +190,24 @@ li {
 	width: 200px;
 	color: #C2D2DE;
 	font-size: 0.8rem;
+}
+
+/*-----------------------------------*/
+.h2-section {
+	height: 440px;
+	text-align: center;
+}
+
+.h2-section img {
+	padding-top: 80px;
+	width: 260px;
+}
+
+.h2-section h2 {
+	font-family: 'AvenirNext-bold', sans-serif;
+	font-size: 2rem;
+}
+
+.h2-section p {
+	padding: 20px 140px;
 }
