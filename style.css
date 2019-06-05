@@ -77,6 +77,10 @@ p {
 	background-color: lightgrey;
 }
 
+.white-background {
+	background-color: white;
+}
+
 
 /*spunte arancioni nei rettangoli bianchi a centro pagina*/
 .fa-check-circle {
@@ -210,4 +214,32 @@ p {
 
 .h2-section p {
 	padding: 20px 140px;
+}
+
+/*-----------------------------------*/
+.h-rect {
+	margin-bottom: 30px;
+	padding: 30px 80px;
+	position: relative;
+}
+
+.h-rect .sx {
+	width: 40%;
+	text-align: center;
+	padding-right: 70px;
+}
+
+.h-rect .dx {
+	width: 60%;
+}
+
+#white-h-rect-button {
+	margin-top: 25px;
+}
+
+.white-rect-image {
+	height: 150px;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%, 0%);
 }
