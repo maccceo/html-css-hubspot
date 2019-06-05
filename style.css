@@ -70,9 +70,15 @@ li {
 }
 
 /*Regole float*/
-.sx {float: left;}
+.sx {
+	float: left;
+	position: relative;
+}
 
-.dx {float: right;}
+.dx {
+	float: right;
+	position: relative;
+}
 
 .clearfix:after {
   content: "";
@@ -82,7 +88,6 @@ li {
 }
 
 .h-center {
-	position: absolute;
 	top: 50%;
 	transform: translate(0%, -50%);
 }
@@ -103,7 +108,6 @@ li {
 }
 
 .header-blue .dx>* {
-	background-color: purple;
 	display: inline-block;
 	margin: 10px;
 }
@@ -128,14 +132,9 @@ li {
 	margin: 0 5px;
 }
 
-.header-grey .sx {
-	display: inline-block;
+/*-----------------------------------*/
+.header-white {
 	position: relative;
-	text-align: left;
-}
-
-.header-grey .dx {
-	display: inline-block;
-	position: relative;
-	text-align: right;
+	height: 55px;
+	background-color: white;
 }
