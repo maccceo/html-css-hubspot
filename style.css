@@ -220,13 +220,49 @@ p {
 	padding: 20px 140px;
 }
 
-/*-----------------------------------
-        Rettangoli bianchi
-*/
-
-.white-rect-image {
+/*--------RETTANGOLI BIANCHI--------*/
+.white-rect-images {
 	height: 150px;
+	margin: 0 auto;
+	width: 100%;
 }
+
+/*titolo rettangolo*/
+h3 {
+	text-align: center;
+	margin: 20px 0 15px;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+/*popular features*/
+h5 {
+	position: relative;
+	text-transform: uppercase;
+	margin: 20px 0 15px;
+}
+
+hr {
+	border-top: 1px solid #e0e6ed;
+}
+
+.orange-check {
+	margin: 15px 10px 15px 0;
+}
+
+.orange-check>li {
+	margin: 0 15px 6px 0;
+	font-size: 0.85rem;
+}
+
+.white-rect-buttons {
+	margin: 25px auto 0px;
+	display: block;
+}
+
+/**/
 
 .h-rect {
 	margin-bottom: 30px;
@@ -235,29 +271,18 @@ p {
 
 .h-rect .sx {
 	width: 38%;
-	text-align: center;
 	padding-top: 5px;
-}
-
-#white-h-rect-button {
-	margin: 25px auto;
-	display: block;
 }
 
 .h-rect .dx {
 	width: 58%;
-	padding: 15px;
 }
 
-.h-rect .dx p {
-	margin: 15px 0 20px;
+.h-rect .dx h3 {
+	text-align: left;
 }
 
-.h-rect .dx h5 {
-	position: relative;
-	text-transform: uppercase;
-}
-
+/*hr di fianco a popular features*/
 .h-rect .dx h5:after {
 	content: '';
     position: absolute;
@@ -268,6 +293,20 @@ p {
     width: 150px;
 }
 
-.first-li-white-rect {
-	margin: 20px 10px 20px 0;
+.v-rect {
+	float: left;
+	width: 30.5%;
+	padding: 30px;
+	max-height: 750px;
+	overflow: auto;
+
+}
+
+#v-rect-centrale {
+	margin: 0 4.25%;
+}
+
+/**/
+.grey-background {
+	padding-bottom: 30px;
 }
