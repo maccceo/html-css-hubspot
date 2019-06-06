@@ -77,11 +77,15 @@ p {
 
 .grey-background {
 	background-color: #F5F8FA;
-	background-color: lightgrey;
 }
 
 .white-background {
 	background-color: white;
+}
+
+.btn-large {
+	font-size: 1rem;
+	padding: 25px 45px;
 }
 
 
@@ -116,9 +120,11 @@ p {
 	transform: translate(0%, -50%);
 }
 
-		/*-----------*/
-		/*--SEZIONI--*/
-		/*-----------*/
+
+
+		/*#####################*/
+		/*#####  SEZIONI  #####*/
+		/*#####################*/
 
 .header-blue {
 	background-color: #33475B;
@@ -188,8 +194,6 @@ p {
 	color: #33475B;
 	width: auto;
 	margin: 20px 0;
-	font-size: 1rem;
-	padding: 25px 45px;
 }
 
 .jumbotron span {
@@ -199,10 +203,9 @@ p {
 	font-size: 0.8rem;
 }
 
-/*-----------------------------------*/
+/*-----SEZIONI CON SFONDO GRIGIO-----*/
 .grey-section {
 	height: 440px;
-	border: 1px solid orange;
 }
 
 h2 {
@@ -222,6 +225,8 @@ h2 {
 	width: 260px;
 }
 
+/**/
+
 .customers-section {
 	padding: 150px 10%;
 }
@@ -236,6 +241,21 @@ h2 {
 .customers-section .dx img {
 	padding: 10px 12px;
 	width: 110px;
+	float: right;
+}
+
+/**/
+
+.getHS-section {
+	padding: 65px 10%;
+}
+
+.getHS-section p,.getHS-section h2 {
+	width: 350px;
+}
+
+.getHS-section img {
+	height: 300px;
 	float: right;
 }
 
@@ -313,6 +333,8 @@ hr {
     top: 4px;
     width: 150px;
 }
+
+/**/
 
 .v-rect {
 	float: left;
