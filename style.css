@@ -64,7 +64,7 @@ button:hover {
 
 li {
 	display: inline-block;
-	margin: 10px;
+	margin: 10px;	/*prossima volta evitiamo mmh?*/
 }
 
 p {
@@ -132,28 +132,38 @@ p {
 	color: #F5F8FA;
 	border-top: 2px solid #FF7A59;
 	font-size: 0.8rem;
+	height: 40px;
 }
 
-.header-blue .dx,.header-blue .sx {
+.header-blue .sx,.header-blue .dx {
 	margin: 0 20px;
+	height: 100%;
+}
+
+.header-blue .sx li {
+	margin: 8px;
 }
 
 .header-blue .dx>* {
 	display: inline-block;
-	margin: 10px;
+	margin: 8px;
 }
 
 #small-logo img {
 	height: 1rem;
+	position: relative;
+    top: 2.5px;
 }
 
-/* not working rn
-.header-blue-dx .separatore {
+#separatore {
 	background-color: #F5F8FA;
-	height: 21px;
-	width: 2px;
+    height: 20px;
+    width: 2px;
+    margin: 0 4px;
+    position: relative;
+    top: 5px;
 }
-*/
+
 
 /*-----------------------------------*/
 .header-grey {
