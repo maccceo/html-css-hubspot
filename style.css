@@ -32,6 +32,7 @@
 	arancione::hover		#FF8F73
 	grigio sfondo			#F5F8FA
 	grigio header (mio)		#D1D4D6
+	grigio testo footer 	#CBD6E2
 	colore freccine header	#7C98B6
 	azzurro lente header	#01A5BE
 
@@ -140,6 +141,10 @@ p {
 .header-blue .dx>* {
 	display: inline-block;
 	margin: 10px;
+}
+
+#small-logo img {
+	height: 1rem;
 }
 
 /* not working rn
@@ -404,3 +409,65 @@ hr {
 
 .cyan-section .table .bottom-border {border-bottom: 1px solid white;}
 .cyan-section .table .right-border {border-right: 1px solid white;}
+
+
+/*--------------FOOTER--------------*/
+footer {
+	background-color: #33475B;
+	color: #CBD6E2;
+	font-size: 0.8rem;
+}
+
+.sitemap article {
+	float: left;
+	width: 25%;
+}
+
+.sitemap article ul {
+	padding: 60px 10%;
+}
+
+.sitemap article ul li {
+	display: block;
+	margin-bottom: 20px;
+}
+
+.sitemap article ul .first-element {
+	font-family: 'AvenirNext-bold', sans-serif;
+	font-size: 0.85rem;
+	color: white;
+}
+
+.sitemap article ul button {
+	color: #33475B;
+	background-color: white;
+	border-radius: 4px;
+	font-family: 'AvenirNext-regular', sans-serif;
+	font-size: 0.8rem;
+	width: 100%;
+	margin: 0;
+	padding: 10px 5px;
+}
+
+.sitemap article ul li .social-icon {
+	width: 20%;
+	float: left;
+	font-size: 1rem;
+}
+
+/**/
+
+.ending #language-ul {
+	text-align: center;
+	border-bottom: 1px solid #7C98B6;
+	padding-bottom: 30px;
+}
+
+.footer-ending-logo, .footer-ending-copyright {
+	padding: 30px 0;
+}
+
+.footer-ending-copyright a {
+	text-decoration: none;
+	color: #CBD6E2;
+}
