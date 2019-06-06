@@ -35,15 +35,14 @@
 	colore freccine header	#7C98B6
 	azzurro lente header	#01A5BE
 
-
 	gradiente azzurro:
 	bottom-left #00A4BD
 	top-right   #00BCA5
 */
 
 body {
-  font-family: 'AvenirNext-regular', sans-serif;
-  color: #33475B;
+	font-family: 'AvenirNext-regular', sans-serif;
+	color: #33475B;
 }
 
 button {
@@ -69,7 +68,7 @@ li {
 
 p {
 	line-height: 1.6rem;
-
+	margin-bottom: 20px;
 }
 
 .main-padding {
@@ -117,9 +116,9 @@ p {
 	transform: translate(0%, -50%);
 }
 
-/*-----------*/
-/*--SEZIONI--*/
-/*-----------*/
+		/*-----------*/
+		/*--SEZIONI--*/
+		/*-----------*/
 
 .header-blue {
 	background-color: #33475B;
@@ -201,23 +200,43 @@ p {
 }
 
 /*-----------------------------------*/
-.h2-section {
+.grey-section {
 	height: 440px;
-	text-align: center;
+	border: 1px solid orange;
 }
 
-.h2-section img {
-	padding-top: 80px;
+h2 {
+	font-family: 'AvenirNext-bold', sans-serif;
+	font-size: 2rem;
+	padding: 15px 0 25px;
+}
+
+/**/
+
+.rubik-section {
+	text-align: center;
+	padding: 50px;
+}
+
+.rubik-section img {
 	width: 260px;
 }
 
-.h2-section h2 {
-	font-family: 'AvenirNext-bold', sans-serif;
-	font-size: 2rem;
+.customers-section {
+	padding: 150px 10%;
 }
 
-.h2-section p {
-	padding: 20px 140px;
+.customers-section .sx {width: 30%;}
+.customers-section .dx {width: 65%;}
+
+.customers-section h2 {
+    padding: 0 0 25px;
+}
+
+.customers-section .dx img {
+	padding: 10px 12px;
+	width: 110px;
+	float: right;
 }
 
 /*--------RETTANGOLI BIANCHI--------*/
@@ -233,9 +252,6 @@ h3 {
 	margin: 20px 0 15px;
 }
 
-p {
-	margin-bottom: 20px;
-}
 
 /*popular features*/
 h5 {
@@ -250,6 +266,11 @@ hr {
 
 .orange-check {
 	margin: 15px 10px 15px 0;
+}
+
+/*vista impilata orange-check dei rettangoli verticali*/
+.block>li {
+	display: block;
 }
 
 .orange-check>li {
@@ -306,7 +327,7 @@ hr {
 	margin: 0 4.25%;
 }
 
-/**/
-.grey-background {
+.v-rect-wrapper {
 	padding-bottom: 30px;
 }
+
