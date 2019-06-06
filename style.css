@@ -169,7 +169,7 @@ p {
 	background-color: white;
 }
 
-/*-----------------------------------*/
+/*------------JUMBOTRON--------------*/
 .jumbotron {
 	background-image: url("Resources/background.png"), linear-gradient(to right top, #356682, #3f7e99, #4b96af, #58afc4, #68c9d8);
 	background-repeat: no-repeat;
@@ -353,3 +353,54 @@ hr {
 	padding-bottom: 30px;
 }
 
+/*---------SEZIONE TURCHESE---------*/
+.cyan-section {
+	background-image: linear-gradient(to right top, #00a4bc, #00abba, #00b1b6, #00b7af, #00bda6);
+	color: white;
+	text-align: center;
+}
+
+
+/**/
+.cyan-section .table-title {
+	padding: 50px 80px 0;
+}
+
+.cyan-section .table-title p {
+	margin: 0;
+}
+
+.cyan-section .table {
+	padding: 60px 0;
+}
+
+.cyan-section .table>div{
+	display: inline-block;
+	width: 25%;
+	margin: 0;
+	float: left;
+}
+
+.cyan-section .table div img {
+	height: 25px;
+	margin: 10px 0 5px;
+}
+
+.cyan-section .table div h4 {
+	font-family: 'AvenirNext-bold', sans-serif;
+	font-size: 2rem;
+}
+
+.cyan-section .table div h4:after {
+	content: '+';
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.cyan-section .table div p {
+	font-size: 0.8rem;
+	margin-bottom: 10px;
+}
+
+.cyan-section .table .bottom-border {border-bottom: 1px solid white;}
+.cyan-section .table .right-border {border-right: 1px solid white;}
